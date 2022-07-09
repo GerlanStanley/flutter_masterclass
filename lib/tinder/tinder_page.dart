@@ -29,10 +29,10 @@ class TinderPage extends StatelessWidget {
               SafeArea(
                 top: true,
                 child: Container(
-                  margin: EdgeInsets.only(top: 10),
+                  margin: const EdgeInsets.only(top: 10),
                   child: IconButton(
                     iconSize: 40,
-                    onPressed: () {},
+                    onPressed: () => Navigator.pop(context),
                     icon: const Icon(
                       Icons.keyboard_arrow_left,
                       color: Colors.white,
