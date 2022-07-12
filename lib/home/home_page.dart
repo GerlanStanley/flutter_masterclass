@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:masterclass_task1/main.dart';
 
 import 'components/button.dart';
 
